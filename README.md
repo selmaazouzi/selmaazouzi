@@ -14,36 +14,24 @@ Ingénieur IA & Data diplômé de l'**INSA Rouen Normandie**, je construis des a
 Ce qui me motive : faire passer un LLM du prototype qui impressionne en démo au système fiable sur lequel une équipe peut compter.
 
 > [!TIP]
-> **🟢 En recherche active : poste d'ingénieur IA générative / LLM Engineer** (‹CDI›) · ‹Paris / Lyon / télétravail› · disponible ‹immédiatement›
+> **En recherche active : poste d'ingénieur IA générative / LLM Engineer** (‹CDI›) · ‹Paris / Lyon / télétravail› · disponible ‹immédiatement›
 >
-> RAG, agents, évaluation de LLM, LLMOps. Parlons-en : [salmane.maazouzi@gmail.com](mailto:salmane.maazouzi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/‹à-compléter›)
+> Contact : [salmane.maazouzi@gmail.com](mailto:salmane.maazouzi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/‹à-compléter›)
 
-## 🤖 `.well-known/agent-card.json`
+## Domaines
 
-Mes agents se présentent entre eux avec une *Agent Card* (protocole [A2A](https://a2a-protocol.org)). Voici la mienne :
+- **RAG** : ingestion de sources officielles, recherche vectorielle (pgvector, FAISS), reranking, réponses sourcées avec vérification des citations.
+- **Agents** : graphes LangGraph, appel d'outils, agents qui communiquent via le protocole A2A, validation humaine avant les actions sensibles.
+- **LLMOps et évaluation** : jeux de tests de référence, suivi du coût et de la latence, choix entre modèles hébergés et locaux, CI et Python typé.
+- **Deep learning** : PyTorch, GANs, architectures CNN, entraînement sur cluster de calcul (Slurm).
 
-```jsonc
-{
-  "name": "Salmane El Maazouzi",
-  "description": "GenAI engineer: turns LLM prototypes into reliable, measurable systems.",
-  "skills": [
-    { "id": "rag",    "tags": ["retrieval", "pgvector", "reranking", "citation checks"] },
-    { "id": "agents", "tags": ["LangGraph", "A2A", "tool calling", "human-in-the-loop"] },
-    { "id": "llmops", "tags": ["evaluation", "cost & latency tracking", "CI", "typed Python"] },
-    { "id": "deep-learning", "tags": ["PyTorch", "GANs", "CNN architectures", "HPC / Slurm"] }
-  ],
-  "languages": ["fr", "en"],
-  "status": "open_to_work"   // ← voir ci-dessus 👆
-}
-```
-
-## 🚧 En cours
+## En cours
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚖️ [DroitClair](https://github.com/selmaazouzi/droitclair-rag-travail)
+### [DroitClair](https://github.com/selmaazouzi/droitclair-rag-travail)
 
 **Assistant RAG sur le droit du travail français** : il répond uniquement à partir du Code du travail officiel et cite chaque article utilisé.
 
@@ -65,7 +53,7 @@ Mes agents se présentent entre eux avec une *Agent Card* (protocole [A2A](https
 <tr>
 <td width="50%" valign="top">
 
-### 🛒 [Assistant d'achat multi-agents](https://github.com/achrafElFaiq/multi-agent-shopping-assistant)
+### [Assistant d'achat multi-agents](https://github.com/achrafElFaiq/multi-agent-shopping-assistant)
 
 **Trois agents LangGraph qui dialoguent via A2A** pour comprendre une demande, chercher dans le catalogue Shopify et acheter après validation humaine.
 
@@ -83,7 +71,7 @@ Mes agents se présentent entre eux avec une *Agent Card* (protocole [A2A](https
 </tr>
 </table>
 
-## 🗂️ Projets précédents
+## Projets précédents
 
 | Projet | Ce que j'ai fait | Stack |
 |---|---|---|
@@ -93,15 +81,15 @@ Mes agents se présentent entre eux avec une *Agent Card* (protocole [A2A](https
 | **Robot autonome** | Suivi de ligne, détection d'obstacles, pilotage à la manette, sur Raspberry Pi | C, Raspberry Pi, I²C |
 | **Compression de Huffman** | Compresseur et décompresseur de fichiers, avec tests unitaires | C |
 
-## 🧭 Parcours
+## Parcours
 
 | | |
 |---|---|
-| **‹année›** | 🎓 **Diplôme d'ingénieur IA & Data**, INSA Rouen Normandie |
-| **‹dates›** | 💼 **‹Poste›**, ‹Entreprise› · ‹une ligne sur ce que tu as livré› |
-| **‹dates›** | 💼 **‹Poste›**, ‹Entreprise› · ‹une ligne sur ce que tu as livré› |
+| **‹année›** | **Diplôme d'ingénieur IA & Data**, INSA Rouen Normandie |
+| **‹dates›** | **‹Poste›**, ‹Entreprise› · ‹une ligne sur ce que tu as livré› |
+| **‹dates›** | **‹Poste›**, ‹Entreprise› · ‹une ligne sur ce que tu as livré› |
 
-## 🧰 Outils
+## Outils
 
 | | |
 |---|---|
@@ -110,7 +98,3 @@ Mes agents se présentent entre eux avec une *Agent Card* (protocole [A2A](https
 | **Back-end & données** | ![Python](https://img.shields.io/badge/Python-1f2328?style=flat-square&logo=python&logoColor=FFD43B) ![FastAPI](https://img.shields.io/badge/FastAPI-1f2328?style=flat-square&logo=fastapi&logoColor=009688) ![Flask](https://img.shields.io/badge/Flask-1f2328?style=flat-square&logo=flask&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1f2328?style=flat-square&logo=postgresql&logoColor=4169E1) ![Pydantic](https://img.shields.io/badge/Pydantic-1f2328?style=flat-square&logo=pydantic&logoColor=E92063) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1f2328?style=flat-square&logo=sqlalchemy&logoColor=white) |
 | **Ingénierie** | ![Docker](https://img.shields.io/badge/Docker-1f2328?style=flat-square&logo=docker&logoColor=2496ED) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1f2328?style=flat-square&logo=githubactions&logoColor=2088FF) ![uv](https://img.shields.io/badge/uv-1f2328?style=flat-square&logo=uv&logoColor=DE5FE9) ![pytest](https://img.shields.io/badge/pytest-1f2328?style=flat-square&logo=pytest&logoColor=0A9EDC) ![Ruff](https://img.shields.io/badge/Ruff-1f2328?style=flat-square&logo=ruff&logoColor=D7FF64) ![mypy](https://img.shields.io/badge/mypy%20strict-1f2328?style=flat-square) ![Slurm](https://img.shields.io/badge/Slurm%20%2F%20HPC-1f2328?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-1f2328?style=flat-square&logo=linux&logoColor=white) |
 | **Aussi** | ![C](https://img.shields.io/badge/C-1f2328?style=flat-square&logo=c&logoColor=A8B9CC) ![Java](https://img.shields.io/badge/Java-1f2328?style=flat-square&logo=openjdk&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-1f2328?style=flat-square&logo=vuedotjs&logoColor=4FC08D) ![LaTeX](https://img.shields.io/badge/LaTeX-1f2328?style=flat-square&logo=latex&logoColor=white) |
-
----
-
-<p align="center"><sub>Un projet d'IA générative à fiabiliser ? <a href="mailto:salmane.maazouzi@gmail.com">Écrivez-moi</a>.</sub></p>
