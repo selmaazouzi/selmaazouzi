@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Salmane El Maazouzi, Generative AI Engineer : RAG, agents, LLMOps, évaluation. En recherche active d'un poste en IA générative.">
+  <img src="assets/header-light.svg" width="100%" alt="Salmane El Maazouzi, Generative AI Engineer. Je construis des applications LLM et je garantis leur qualité, mesures à l'appui. LLMOps, RAG, agents IA. En recherche active d'un poste en IA générative.">
 </picture>
 
 <p align="center">
@@ -12,27 +12,25 @@
 
 Ingénieur IA & Data diplômé de l'**INSA Rouen Normandie** (2026), spécialisé en science des données.
 J'ai conçu des systèmes d'IA générative, puis travaillé sur **l'évaluation et le monitoring de LLM en production** (LLMOps).
-Je construis des applications **qui citent leurs sources, se testent et se mesurent** : RAG, agents, LLM-as-a-Judge.
 
-> [!TIP]
-> **En recherche active : poste d'ingénieur IA générative / LLM Engineer** · Paris ou France entière · disponible immédiatement
->
+> **En recherche active : poste d'ingénieur IA générative / LLM Engineer** · Paris ou France entière · disponible immédiatement<br>
 > Contact : [salmaneelmaazouzi@gmail.com](mailto:salmaneelmaazouzi@gmail.com) · [LinkedIn](https://www.linkedin.com/in/salmane-el-maazouzi)
 
 ## Domaines
 
-- **Évaluation et LLMOps** : LLM-as-a-Judge, références annotées par des humains, scores de risque, suivi des prompts, tokens et coûts.
-- **RAG** : ingestion de sources, recherche vectorielle (pgvector, FAISS), réponses sourcées avec vérification des citations.
-- **Agents** : graphes LangGraph, appel d'outils, agents qui communiquent via le protocole A2A, validation humaine avant les actions sensibles.
-- **Deep learning et NLP** : PyTorch, GANs, architectures CNN, traitement de documents non structurés.
+- **Deep learning** : conception et entraînement de modèles PyTorch (GANs, CNN), reproduction d'articles de recherche, entraînement sur GPU et sur cluster de calcul (CUDA, Slurm).
+- **NLP** : embeddings et recherche sémantique (Sentence Transformers, référentiel ESCO), traitement de documents non structurés, anonymisation de données textuelles.
+- **RAG** : ingestion de sources officielles, recherche vectorielle (pgvector, FAISS), réponses sourcées avec vérification automatique des citations, choix entre modèles hébergés et locaux.
+- **Agents IA** : systèmes multi-agents LangGraph, appel d'outils, communication entre agents via le protocole A2A, validation humaine avant les actions sensibles.
+- **LLMOps et évaluation** : LLM-as-a-Judge, références annotées par des humains, scores de risque pour prioriser la revue, traçabilité des prompts, des tokens et des coûts.
 
 ## Expériences
 
-| Période | Poste |
-|---|---|
-| **Fév&nbsp;–&nbsp;Août&nbsp;2026** | **Ingénieur IA générative (stage), ALTEN**<br>Monitoring de la qualité des résumés générés par LLM pour un outil interne de recrutement en production (50 consultants par semaine) : référence d'évaluation de **7 220 annotations** (9 annotateurs, Label Studio), trois modes d'évaluation (règles, embeddings enrichis par ESCO, **LLM-as-a-Judge** sur Azure OpenAI), score de risque pour prioriser la revue humaine, **coût d'évaluation réduit de 13 %**. |
-| **Mai&nbsp;–&nbsp;Août&nbsp;2025** | **Ingénieur IA (stage), Norsys**<br>Génération d'examens techniques de recrutement par **RAG** (MiniLM, FAISS) : QCM, questions ouvertes et exercices de code. API Flask, inférence via OpenRouter avec repli automatique sur un modèle local (Ollama). Préparation d'un examen ramenée **d'une journée à quelques minutes**. |
-| **2025&nbsp;–&nbsp;2026** | **Développeur full stack & NLP, Centre Henri Becquerel** (projet INSA certifié)<br>Application de suivi des prescriptions pour les pharmaciens cliniciens, au sein d'une équipe Scrum de 8 personnes, avec des fonctionnalités NLP sur des documents médicaux non structurés. |
+| Année | Poste | Entreprise | Tâches |
+|---|---|---|---|
+| **2026** | Ingénieur IA générative (stage) | **ALTEN** | • Monitoring de la qualité des résumés générés par LLM, pour un outil de recrutement en production<br>• Référence d'évaluation : 7 220 annotations par 9 annotateurs (Label Studio)<br>• LLM-as-a-Judge sur Azure OpenAI, embeddings enrichis par ESCO, score de risque<br>• Coût d'évaluation réduit de 13 % |
+| **2025** | Ingénieur IA (stage) | **Norsys** | • Pipeline RAG (MiniLM, FAISS) qui génère QCM, questions ouvertes et exercices de code<br>• API Flask, inférence via OpenRouter avec repli automatique sur Ollama<br>• Préparation d'un examen ramenée d'une journée à quelques minutes |
+| **2025&nbsp;–&nbsp;2026** | Développeur full stack & NLP | **Centre Henri Becquerel** (projet INSA) | • Application de suivi des prescriptions pour les pharmaciens cliniciens<br>• Fonctionnalités NLP sur des documents médicaux non structurés<br>• Équipe Agile Scrum de 8 personnes |
 
 ## Projets en cours
 
@@ -41,40 +39,19 @@ Je construis des applications **qui citent leurs sources, se testent et se mesur
 <td width="50%" valign="top">
 
 ### [DroitClair](https://github.com/selmaazouzi/droitclair-rag-travail)
+**Le droit du travail, sources à l'appui.**
+Un assistant qui répond aux questions des salariés uniquement à partir du Code du travail officiel, et cite chaque article utilisé.
 
-**Assistant RAG sur le droit du travail français** : il répond uniquement à partir du Code du travail officiel et cite chaque article utilisé.
-
-- 686 articles récupérés via l'**API Légifrance**, ingestion idempotente
-- **bge-m3** + **pgvector** (HNSW), LLM interchangeable (OpenRouter ou Ollama en local)
-- **Vérification automatique des citations**, réponses en streaming (FastAPI + SSE, Chainlit)
-- 162 tests, `mypy --strict`, CI sur une vraie base pgvector
-- **Prochaine étape :** recherche hybride, reranking et évaluation chiffrée
-
-`Python` `FastAPI` `PostgreSQL` `pgvector` `OpenRouter` `Ollama`
+`RAG` `pgvector` `FastAPI` `OpenRouter` `Ollama` `vérification des citations`
 
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/droitclair-demo.png" alt="DroitClair répond à une question sur la période d'essai d'un cadre, en citant les articles du Code du travail">
+### [AI Shopping](https://github.com/achrafElFaiq/multi-agent-shopping-assistant)
+**Trois agents IA qui font vos achats, avec votre accord.**
+Ils comprennent la demande, comparent les produits et n'achètent qu'après validation humaine.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [AI Shopping : agents d'achat personnalisé](https://github.com/achrafElFaiq/multi-agent-shopping-assistant)
-
-**Trois agents LangGraph qui dialoguent via A2A** pour comprendre une demande, comparer les produits du catalogue Shopify et acheter après validation humaine.
-
-`LangGraph` `A2A` `OpenRouter` `Pydantic` `PostgreSQL`
-
-</td>
-<td width="50%" valign="top">
-
-**Ma contribution** (contributeur principal, projet à 3) :
-- l'agent **préférences utilisateur** (outils, appel de fonction, persistance PostgreSQL)
-- la **pause d'approbation humaine** avant paiement
-- le graphe LangGraph initial, les schémas Pydantic et la CI
+`LangGraph` `A2A` `multi-agents` `PostgreSQL` `human-in-the-loop`
 
 </td>
 </tr>
@@ -82,18 +59,15 @@ Je construis des applications **qui citent leurs sources, se testent et se mesur
 
 ## Projets précédents
 
-| Projet | Ce que j'ai fait | Stack |
-|---|---|---|
-| **EdgeConnect** · reconstruction d'images par GAN | Entraînement d'un GAN en deux étapes (contours, puis texture), comparaison de méthodes d'extraction de contours, évaluation PSNR / SSIM / FID sur CelebA | PyTorch, CUDA, OpenCV, MLflow |
-| **RegNet** · reproduction de *Designing Network Design Spaces* (FAIR) | Implémentation de RegNetX et entraînement sur ImageNet, sur un cluster de calcul | PyTorch, Slurm |
-| **Robot autonome** | Suivi de ligne, détection d'obstacles, pilotage à la manette, sur Raspberry Pi | C, Raspberry Pi |
-
-## Formation
-
-| Période | Diplôme |
-|---|---|
-| **2023&nbsp;–&nbsp;2026** | **Diplôme d'ingénieur, INSA Rouen Normandie** · Informatique et Technologies de l'Information, spécialisation science des données |
-| **2021&nbsp;–&nbsp;2023** | **Classes préparatoires MP** (mathématiques, physique), Lycée Ibn Timiya |
+- **[EdgeConnect](https://github.com/selmaazouzi/edge-connect) · reconstruction d'images par GAN**<br>
+  Modèle en deux étapes qui prédit d'abord les contours manquants, puis la texture. Comparaison de méthodes d'extraction de contours, évaluation PSNR, SSIM et FID sur CelebA.<br>
+  `PyTorch` `CUDA` `OpenCV` `MLflow`
+- **[RegNet](https://github.com/selmaazouzi/Projet_DLA_RegNet) · reproduction d'un article de recherche de FAIR**<br>
+  Implémentation de RegNetX (*Designing Network Design Spaces*) et entraînement sur ImageNet, sur un cluster de calcul.<br>
+  `PyTorch` `Slurm` `HPC`
+- **[Robot autonome](https://github.com/selmaazouzi/robot-elec) · Raspberry Pi programmé en C**<br>
+  Suivi de ligne, détection d'obstacles par ultrasons, affichage LCD et pilotage à la manette.<br>
+  `C` `Raspberry Pi` `I²C` `capteurs`
 
 ## Outils
 

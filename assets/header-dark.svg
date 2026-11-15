@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
 <title id="title">Salmane El Maazouzi, Generative AI Engineer</title>
-<desc id="desc">Ingénieur IA générative : RAG, agents, LLMOps, évaluation. En recherche active d'un poste en IA générative.</desc>
+<desc id="desc">Je construis des applications LLM et je garantis leur qualité, mesures à l’appui. LLMOps, RAG, agents IA. En recherche active d’un poste en IA générative.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#111827"/>
@@ -13,33 +13,33 @@
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
   .eyebrow { font: 600 15px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 3px; fill: #a5b4fc; }
   .name { font-weight: 700; font-size: 50px; fill: #e6edf3; letter-spacing: -0.5px; }
-  .tagline { font-size: 20px; fill: #9198a1; }
+  .tagline { font-size: 21px; fill: #9198a1; }
   .chip { font-weight: 600; font-size: 15px; fill: #a5b4fc; }
   .status { font-weight: 600; font-size: 15px; fill: #3fb950; }
   .num { font: 600 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9198a1; }
   .step { font: 700 16px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #e6edf3; }
-  .detail { font: 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #9198a1; }
+  .detail { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #9198a1; }
   .flow { stroke: #818cf8; stroke-width: 2.5; stroke-dasharray: 4 6; animation: flow 1.2s linear infinite; }
   .node rect { animation: glow 3.6s ease-in-out infinite; animation-delay: inherit; }
-  .pulse { fill: #3fb950; transform-origin: 84px 289px; animation: pulse 2s ease-out infinite; }
+  .pulse { fill: #3fb950; transform-origin: 84px 319px; animation: pulse 2s ease-out infinite; }
   @keyframes flow { to { stroke-dashoffset: -20; } }
   @keyframes glow { 0%, 20%, 100% { stroke: #30363d; } 8% { stroke: #818cf8; } }
   @keyframes pulse { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(2.6); opacity: 0; } }
   @media (prefers-reduced-motion: reduce) { .flow, .node rect, .pulse { animation: none; } }
 </style>
-<rect x="0.5" y="0.5" width="1199" height="339" rx="18" fill="url(#bg)" stroke="#30363d"/>
-<rect x="0.5" y="0.5" width="1199" height="339" rx="18" fill="url(#grid)"/>
+<rect x="0.5" y="0.5" width="1199" height="379" rx="18" fill="url(#bg)" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="1199" height="379" rx="18" fill="url(#grid)"/>
 
 <text x="64" y="78" class="eyebrow">GENERATIVE AI ENGINEER</text>
 <text x="62" y="138" class="name">Salmane El Maazouzi</text>
-<text x="64" y="182" class="tagline">Des systèmes LLM qui citent leurs sources, se testent et se mesurent.</text>
-<rect x="64" y="214" width="53" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="90.5" y="235" text-anchor="middle" class="chip">RAG</text><rect x="127" y="214" width="136" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="195.0" y="235" text-anchor="middle" class="chip">Agents &amp; A2A</text><rect x="273" y="214" width="81" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="313.5" y="235" text-anchor="middle" class="chip">LLMOps</text><rect x="364" y="214" width="118" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="423.0" y="235" text-anchor="middle" class="chip">Évaluation</text>
+<text x="64" y="182" class="tagline">Je construis des applications LLM et je garantis</text><text x="64" y="210" class="tagline">leur qualité, mesures à l’appui.</text>
+<rect x="64" y="244" width="86" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="107.0" y="265" text-anchor="middle" class="chip">LLMOps</text><rect x="160" y="244" width="58" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="189.0" y="265" text-anchor="middle" class="chip">RAG</text><rect x="228" y="244" width="114" height="32" rx="16" fill="#1e1b4b" stroke="#3730a3"/><text x="285.0" y="265" text-anchor="middle" class="chip">Agents IA</text>
 
-<rect x="64" y="272" width="366" height="34" rx="17" fill="#0f2a1a"/>
-<circle cx="84" cy="289" r="5" class="pulse"/>
-<circle cx="84" cy="289" r="5" fill="#3fb950"/>
-<text x="100" y="294" class="status">En recherche active · poste en IA générative</text>
+<rect x="64" y="302" width="366" height="34" rx="17" fill="#0f2a1a"/>
+<circle cx="84" cy="319" r="5" class="pulse"/>
+<circle cx="84" cy="319" r="5" fill="#3fb950"/>
+<text x="100" y="324" class="status">En recherche active · poste en IA générative</text>
 
-<line x1="842" y1="94" x2="842" y2="116" class="flow"/><line x1="842" y1="168" x2="842" y2="190" class="flow"/><line x1="842" y1="242" x2="842" y2="264" class="flow"/>
-<g class="node" style="animation-delay:0.0s"><rect x="808" y="42" width="340" height="52" rx="10" fill="#161b22" stroke="#30363d"/><text x="826" y="74" class="num">01</text><text x="860" y="74" class="step">question</text><text x="1130" y="74" text-anchor="end" class="detail">« préavis d’un CDI ? »</text></g><g class="node" style="animation-delay:0.9s"><rect x="808" y="116" width="340" height="52" rx="10" fill="#161b22" stroke="#30363d"/><text x="826" y="148" class="num">02</text><text x="860" y="148" class="step">retrieve</text><text x="1130" y="148" text-anchor="end" class="detail">bge-m3 · pgvector</text></g><g class="node" style="animation-delay:1.8s"><rect x="808" y="190" width="340" height="52" rx="10" fill="#161b22" stroke="#30363d"/><text x="826" y="222" class="num">03</text><text x="860" y="222" class="step">generate</text><text x="1130" y="222" text-anchor="end" class="detail">LLM · prompt versionné</text></g><g class="node" style="animation-delay:2.7s"><rect x="808" y="264" width="340" height="52" rx="10" fill="#161b22" stroke="#30363d"/><text x="826" y="296" class="num">04</text><text x="860" y="296" class="step">verify</text><text x="1130" y="296" text-anchor="end" class="detail">sources [1] [2] ✓</text></g>
+<line x1="754" y1="94" x2="754" y2="114" class="flow"/><line x1="754" y1="178" x2="754" y2="198" class="flow"/><line x1="754" y1="262" x2="754" y2="282" class="flow"/>
+<g class="node" style="animation-delay:0.0s"><rect x="724" y="30" width="436" height="64" rx="10" fill="#161b22" stroke="#30363d"/><text x="742" y="57" class="num">01</text><text x="776" y="57" class="step">build</text><text x="776" y="79" class="detail">Applications RAG et agents IA</text></g><g class="node" style="animation-delay:0.9s"><rect x="724" y="114" width="436" height="64" rx="10" fill="#161b22" stroke="#30363d"/><text x="742" y="141" class="num">02</text><text x="776" y="141" class="step">annotate</text><text x="776" y="163" class="detail">Référence d’évaluation humaine</text></g><g class="node" style="animation-delay:1.8s"><rect x="724" y="198" width="436" height="64" rx="10" fill="#161b22" stroke="#30363d"/><text x="742" y="225" class="num">03</text><text x="776" y="225" class="step">judge</text><text x="776" y="247" class="detail">LLM-as-a-Judge · metrics · human feedback</text></g><g class="node" style="animation-delay:2.7s"><rect x="724" y="282" width="436" height="64" rx="10" fill="#161b22" stroke="#30363d"/><text x="742" y="309" class="num">04</text><text x="776" y="309" class="step">monitor</text><text x="776" y="331" class="detail">tokens · prompts · coûts · latence</text></g>
 </svg>
